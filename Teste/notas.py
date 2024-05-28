@@ -41,6 +41,7 @@ def Nota_AOP_3():
 nota3 = Nota_AOP_3()
 print('A nota da AOP 2 foi,', nota3)
 
+print('As notas foram, ' , nota1, nota2, nota3)
 
 
 """
