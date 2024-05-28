@@ -1,7 +1,6 @@
-print('===>Digite as notas do aluno 1 <===')
 def Nota_AOP_1():
     while True: 
-        campo1 = input("Digite a nota do aluno AOP 1 ==> ")
+        campo1 = input("Digite a nota do aluno AOP 1 ==>")
         campo1 = campo1.replace(',','.')
         nota1 = float(campo1)
 
@@ -43,15 +42,7 @@ print('A nota da AOP 2 foi,', nota3)
 
 print('As notas foram, ' , nota1, nota2, nota3)
 
-
-"""
-aluno1 = []
-aluno2 = []
-aluno3 = []
-aluno4 = []
-aluno5 = []
-
-for loopdecinco in range(4):
+for loopdecinco in range(5):
     print('===>Digite as notas do aluno', loopdecinco + 2,'<===')
 
     nota1 = Nota_AOP_1()
@@ -65,18 +56,6 @@ for loopdecinco in range(4):
     nota3 = Nota_AOP_3()
     if nota3 is not None:
         aop3.append(nota3)
-"""
-
-
-
-
-
-
-
-
-
-
-
 
 
 """

@@ -11,6 +11,7 @@ elif delta == 0 :
 else :
     print('A equação não produz razes reais.')
 
+print('**********FINALIZADO**********')
 """
 DESAFIO:
 
