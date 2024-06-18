@@ -47,7 +47,7 @@ for loopdecinco in range(5):
 
     nota1 = Nota_AOP_1()
     if nota1 is not None:
-        aluno1.append(nota1)
+        aop1.append(nota1)
 
     nota2 = Nota_AOP_2()
     if nota2 is not None:
