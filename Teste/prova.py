@@ -65,20 +65,6 @@ while indice < len(numeros):
     indice += 1
 """
 
-"""
-nomes = ['Arthur', 'Alexandre', 'Silvânia', 'Marcos', 'Macaco']
-posicao = 0
-nome = input("Coloque o 'nome' da pessoa presente na lista ==> ")
-
-while nomes[posicao] != nome:
-  if nomes[posicao] != nome:
-    print('O nome de ', nome, 'não está presente na lista')
-    break
-  else:
-    print('O nome ', nome, ' está presente na lista')
-    break
-"""
-
 continuar = 'sim'
 
 while continuar == 'sim':
@@ -100,7 +86,6 @@ while continuar == 'sim':
   else:
     break
 
-
 """
 nomes = ['Arthur', 'Alexandre', 'Silvânia', 'Marcos', 'Macaco']
 nome = input('Digite o nome da pessoa que está presente na lista ==> ')
@@ -112,3 +97,64 @@ for nome in nomes:
     else:
         print(nome, 'está na lista')
 """
+"""
+nomes = ['Arthur', 'Alexandre', 'Silvânia', 'Marcos', 'Macaco']
+posicao = 0
+nome = input("Coloque o 'nome' da pessoa presente na lista ==> ")
+
+while nomes[posicao] != nome:
+  if nomes[posicao] != nome:
+    print('O nome de ', nome, 'não está presente na lista')
+    break
+  else:
+    print('O nome ', nome, ' está presente na lista')
+    break
+"""
+
+"""
+alunos = ['arthur', 'marcos', 'gabriel', 'claudia', 'cleiton']
+lista = [1, 4, 5, 8, 2, 6, 3, 10]
+
+print(alunos)
+print(alunos[1])
+
+alunos.append("carlos")
+print('.APPEND() ==> ' , alunos)
+
+alunos.insert(1, "arroz")
+print('.INSERT(1, "") ==> ' ,alunos)
+
+alunos.remove("arthur")
+print('.REMOVE() ==> ' , alunos)
+
+popvar = alunos.pop(2)
+print('.POP() ==> ', alunos)
+print(popvar)
+
+alunos.sort()
+print(alunos)
+
+copiadalista = alunos.copy()
+
+print(copiadalista)
+
+index = alunos.index("cleiton")
+print(index)
+
+alunos.extend(lista)
+print(alunos)
+
+alunos.clear()
+print(alunos)
+"""
+#--> append = Insere na última posição da lista
+#--> insert(indice, "informação") = insere a informação da posição selecionada 
+#--> remove("informação presente na lista") = Tira uma informação presente na lista
+#--> pop(indice) = Remove o elemento da posição escolhida ===> e pode retornar o elemento removido <===
+#--> sort() = Organiza em ordem aufabética ou numérica a lista
+#--> reverse() = inverte a ordem de informações atual da lista
+#--> clear() = Limpa a lista
+#--> copy() = copia a lista
+#--> count() = conta a quantidade de elementos na lista
+#--> index = Diz o indice de um elemento presente na lista
+#--> extend() = Cola uma lista na outra
