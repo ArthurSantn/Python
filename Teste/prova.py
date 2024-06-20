@@ -82,19 +82,24 @@ while nomes[posicao] != nome:
 continuar = 'sim'
 
 while continuar == 'sim':
-  n1 = float(input('Digite o primeiro número da conta ==> '))
-  operacao = input('Digite a operaça que será utilizada (+, -, *, /) ==> ')
-  n2 = float(input('Digite o segundo número da operação ==> '))
-  if operacao == '+':
-    print('***R E S P O S T A***\n', n1, '+', n2, '\n', '==> ' , n1 + n2, ' <==')
-  elif operacao == '-':
-    print('***R E S P O S T A***\n', n1, '-', n2, '\n', '==> ' , n1 - n2, ' <==')
-  elif operacao == '*':
-    print('***R E S P O S T A***\n', n1, '*', n2, '\n', '==> ' , n1 * n2, ' <==')
-  elif operacao == '/':
-    print('***R E S P O S T A***\n', n1, '/', n2, '\n', '==> ' , n1 / n2, ' <==')
+  try:
+    n1 = float(input('Digite o primeiro número da conta ==> '))
+    operacao = input('Digite a operaça que será utilizada (+, -, *, /) ==> ')
+    n2 = float(input('Digite o segundo número da operação ==> '))
+    if operacao == '+':
+      print('***R E S P O S T A***\n', n1, '+', n2, '\n', '==> ' , n1 + n2, ' <==')
+    elif operacao == '-':
+      print('***R E S P O S T A***\n', n1, '-', n2, '\n', '==> ' , n1 - n2, ' <==')
+    elif operacao == '*':
+      print('***R E S P O S T A***\n', n1, '*', n2, '\n', '==> ' , n1 * n2, ' <==')
+    elif operacao == '/':
+      print('***R E S P O S T A***\n', n1, '/', n2, '\n', '==> ' , n1 / n2, ' <==')
+    else:
+      print('Operação inválida, tente novamente...')
+     
 
-  continuar = input("Deseja realizar outra operação? sim/não: ")
+  continuar = input("Deseja realizar outra operação? sim/não: ").lower()
+  except ValueError:
   if continuar == 'sim':
     pass
   else:
