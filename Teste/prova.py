@@ -64,11 +64,10 @@ while indice < len(numeros):
         break
     indice += 1
 """
-
+#*******************S-u-P-E-R C-A-L-C-U-L-A-D-O-R-A 3_0_0_0****************************
 continuar = 'sim'
 
 while continuar == 'sim':
-  try:
     n1 = float(input('Digite o primeiro número da conta ==> '))
     operacao = input('Digite a operaça que será utilizada (+, -, *, /) ==> ')
     n2 = float(input('Digite o segundo número da operação ==> '))
@@ -82,14 +81,11 @@ while continuar == 'sim':
       print('***R E S P O S T A***\n', n1, '/', n2, '\n', '==> ' , n1 / n2, ' <==')
     else:
       print('Operação inválida, tente novamente...')
-     
-
-  continuar = input("Deseja realizar outra operação? sim/não: ").lower()
-  except ValueError:
-  if continuar == 'sim':
-    pass
-  else:
-    break
+    continuar = input("Deseja realizar outra operação? sim/não: ")
+    if continuar == 'sim':
+      pass
+    else:
+      break
 
 """
 nomes = ['Arthur', 'Alexandre', 'Silvânia', 'Marcos', 'Macaco']
