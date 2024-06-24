@@ -17,10 +17,8 @@ while True:
         print(lista)
         input('.:Aperte <enter> para continuar:.')
         os.system('cls' if os.name == 'nt' else 'clear')
-
 """
 
-"""
 import os
 lista = []
 
@@ -43,7 +41,7 @@ while True:
             print(aluno["nome"])
         input('.:Aperte <enter> para continuar:.')
         os.system('cls' if os.name == 'nt' else 'clear')
-"""
+
 
 """
 
@@ -76,6 +74,7 @@ if temperatura >= 60:
 
 """
 
+"""
 a,b = 2,3
 
 if a<b:
@@ -109,3 +108,4 @@ elif b<a:
 else:
 
   print("nada")
+  """

@@ -64,7 +64,7 @@ while indice < len(numeros):
         break
     indice += 1
 """
-
+"""
 continuar = 'sim'
 
 while continuar == 'sim':
@@ -85,6 +85,7 @@ while continuar == 'sim':
     pass
   else:
     break
+"""
 
 """
 nomes = ['Arthur', 'Alexandre', 'Silvânia', 'Marcos', 'Macaco']
